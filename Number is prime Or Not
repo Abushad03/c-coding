@@ -7,9 +7,9 @@ int main() {
     printf("%d\n",x);
     for(int i=2; i<x; i+=1){
         if((x%i)==0)
-            printf("%d x is not a prime number.\n",x);
+            printf("%d is not a prime number.\n",x);
         else
-            printf("%d x is a prime number.\n",x);
+            printf("%d is a prime number.\n",x);
             return 0;
     }
 }
